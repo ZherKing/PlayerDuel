@@ -34,7 +34,10 @@ public class DuelCommand implements CommandExecutor {
                     "/playerduel help - 显示帮助信息\n" +
                     "/playerduel duel <player> - 向指定玩家发起决斗请求\n" +
                     "/playerduel accept - 接受决斗请求\n" +
-                    "/playerduel decline - 拒绝决斗请求");
+                    "/playerduel decline - 拒绝决斗请求\n" +
+                    "/playerduel reload - 重新加载插件配置和语言文件\n" +
+                    "/playerduel arena create <name> - 创建一个新的竞技场\n" +
+                    "/playerduel arena setspawn <name> <1|2> - 设置竞技场的出生点1或2（需站在位置处执行）");
             return true;
         }
     // duel <player>
