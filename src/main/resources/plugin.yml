@@ -1,0 +1,13 @@
+name: PlayerDuel
+version: '1.0-SNAPSHOT'
+main: com.mclzyun.blog.playerDuel.PlayerDuel
+api-version: '1.21'
+authors: [ ZherKing ]
+description: a plugin can run the command on time
+website: blog.mclzyun.com
+commands:
+  playerduel:
+    description: Start a duel with another player
+    usage: /<command> <player>
+    permission: playerduel.duel
+    permission-message: You do not have permission to use this command.

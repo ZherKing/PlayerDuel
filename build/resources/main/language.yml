@@ -1,0 +1,42 @@
+# 请求决斗逻辑
+ONLY-PLAYERS-SEND-THE-DUEL-MSG: '&c只有玩家可以发起请求'
+PLAYER-IS-OFFLINE: '&c玩家 %player% 不在线'
+YOU-CANNOT-DUEL-YOURSELF: '&c你不能和自己决斗'
+YOU-SEND-REQUEST-TO: '&a你向 %player% 发起了决斗请求'
+HAVE-PLAYER-SEND-THE-DUEL-REQUEST: '&a你收到了 %player% 的决斗请求, 使用 /duel accept 接受, /duel deny 拒绝'
+ONLY-PLAYER-CAN-RESPOND-DUEL-REQUEST: '&c只有玩家可以响应决斗请求'
+YOU-HAVE-NO-PENDING-REQUESTS: '&c你没有待处理的请求'
+YOU-ACCEPTED-REQUEST-FROM: '&a你接受了 %player% 的请求'
+PLAYER-WENT-OFFLINE-AND-DUEL-IS-CANCELED: '&c已离线，无法开始决斗'
+ACCEPT-DUEL-REQUEST: "&a%player% 接受了你的决斗请求！"
+
+#只有玩家可以拒绝决斗请求
+ONLY-PLAYER-CAN-DENY-DUEL-REQUEST: '&c只有玩家可以拒绝决斗请求'
+YOU-DENIED-REQUEST-FROM: '&c你拒绝了 %player% 的请求'
+PLAYER-DENIED-YOUR-DUEL-REQUEST: '&c%player% 拒绝了你的决斗请求'
+NO-PENDING-REQUESTS-FROM: '&c你没有待处理请求'
+
+# 竞技场设置
+ARENA-RESPAWN-POINT-NOT-SET: '&c竞技场 %arena% 未设置重生点'
+ARENA-SET: '&a竞技场 %arena% 已设置'
+ARENA-CREATED: "&a竞技场 %arena% 已创建！"
+ARENA-SPAWN-SET: "&a已设置竞技场 %arena% 的重生点 %point%"
+ARENA-HELP: "&e用法: /playerduel arena create <name> 或 /playerduel arena setspawn <name> <1|2>"
+
+#插件提示
+PLUGIN-RELOADED: '&a插件配置已重新加载'
+PLUGIN-LANGUAGE-RELOADED: '&a插件语言已重新加载'
+PLAYERDUEL-USAGE: "&e用法: /playerduel <玩家名>"
+
+#开始决斗逻辑
+DUEL-COUNTDOWN-TITLE: "&c决斗倒计时" #计分板标题
+DUEL-START-TITLE: "&a决斗开始！"
+DUEL-START-MSG: "&e祝你好运！"
+DUEL-SCOREBOARD-TITLE: "&b战斗计分板" # 游戏中的计分板标题
+DUEL-COUNTDOWN-TIME: "&6剩余时间: &e%time% &6秒"
+DUEL-DAMAGE-MSG: "&a你对 %player% 造成了 %damage% 点伤害"
+DUEL-WIN-MSG: "&a你击败了 %player%！决斗结束，3秒后返回。"
+DUEL-LOSE-MSG: "&c你被 %player% 击败！决斗结束，3秒后返回。"
+DUEL-WINNER-MSG: "&b%winner% 获得了胜利！"
+DUEL-HEALTH-SCORE: "%enemy% 血量:"
+DUEL-WINNER-TITLE: "胜者：%winner%"
